@@ -1,0 +1,33 @@
+{
+  "name": "xenus-horizon",
+  "displayName": "Xenus-Horizon",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "Xenus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nublikepro/Xenus-Horizon"
+  }, 
+  "keywords": [
+    "theme",
+    "brown theme",
+    "aesthetic",
+    "xenus",
+    "xenusweb"
+  ],
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Xenus-Horizon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Xenus-Horizon-color-theme.json"
+      }
+    ]
+  }
+}

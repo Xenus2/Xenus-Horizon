@@ -1,0 +1,300 @@
+{
+    "name": "Warm-and-Cohesive-Theme",
+    "colors": {
+        "editor.background": "#4E3B2E",  // Warm dark brown for the editor background
+        "editor.foreground": "#F5E4D7",  // Soft beige text for readability
+        "activityBar.background": "#3B2A1A",  // Darker warm brown for activity bar
+        "sideBar.background": "#5A3F2D",  // Rich warm brown for sidebar
+        "sideBarTitle.foreground": "#F5E4D7",  // Soft beige for sidebar titles
+        "editorCursor.foreground": "#F5E4D7",  // Soft beige cursor
+        "editorLineNumber.foreground": "#9C7C66",  // Medium warm brown for line numbers
+        "editor.selectionBackground": "#6E4B41",  // Warm medium brown for selection background
+        "editorIndentGuide.background": "#6E4B41",  // Subtle warm brown for indent guides
+        "editor.selectionHighlightBackground": "#6E4B41",  // Warm medium brown for selection highlights
+        "editor.findMatchHighlightBackground": "#8C6D5B",  // Warm medium brown for find matches
+        "editorGutter.addedBackground": "#8C6D5B",  // Warm brown for added lines
+        "editorGutter.deletedBackground": "#BF6C6C",  // Warm dark red for deleted lines
+        "editorGutter.modifiedBackground": "#FF8C42",  // Warm orange for modified lines
+        "statusBar.background": "#8C6D5B",  // Warm brown for the status bar
+        "statusBar.foreground": "#F5E4D7",  // Soft beige text on status bar
+        "statusBar.debuggingBackground": "#7F5D4F",  // Darker warm brown for debugging
+        "statusBar.debuggingForeground": "#F5E4D7",  // Soft beige text during debugging
+        "statusBar.noFolderBackground": "#8C6D5B",  // Same warm brown for no folder state
+        "statusBar.noFolderForeground": "#F5E4D7",  // Soft beige text for no folder state
+        "statusBarItem.activeBackground": "#A67C5B",  // Slightly darker warm brown for active status items
+        "statusBarItem.hoverBackground": "#BFAE9B",  // Warm beige for hover effect
+        "titleBar.activeBackground": "#7F5D4F",  // Darker warm brown for title bar background
+        "titleBar.activeForeground": "#F5E4D7",  // Soft beige text on title bar
+        "titleBar.inactiveBackground": "#4E3B2E",  // Dark warm brown for inactive title bar
+        "titleBar.inactiveForeground": "#9C7C66",  // Medium warm brown text on inactive title bar
+        "titleBar.remoteBackground": "#7F5D4F",  // Darker warm brown for remote window button background
+        "titleBar.remoteForeground": "#F5E4D7",  // Soft beige text on remote window button
+        "panel.background": "#4E3B2E",  // Warm dark brown background for panels
+        "panel.border": "#9C7C66",  // Medium warm brown for panel borders
+        "terminal.background": "#4E3B2E",  // Dark warm brown for terminals
+        "terminal.foreground": "#F5E4D7",  // Soft beige text in terminal
+        "diffEditor.insertedTextBackground": "#8C6D5B",  // Warm brown for inserted text in diffs
+        "diffEditor.removedTextBackground": "#BF6C6C",  // Warm dark red for removed text in diffs
+        "diffEditor.modifiedTextBackground": "#FF8C42",  // Warm orange for modified text in diffs
+        "editorWhitespace.foreground": "#6E4B41",  // Background for whitespace characters
+        "editorBracketMatch.background": "#6E4B41",  // Warm medium brown for matching brackets
+        "editorBracketMatch.border": "#FF8C42",  // Warm orange for border of matching brackets
+        "editorRuler.foreground": "#6E4B41",  // Ruler color in editor
+        "editorGroup.border": "#6E4B41",  // Border between editor groups
+        "editorGroupHeader.tabsBackground": "#4E3B2E",  // Background for editor group headers
+        "editorGroupHeader.border": "#F5E4D7",  // Border around editor group headers
+        "scrollbar.shadow": "#00000080",  // Shadow for scrollbars
+        "scrollbarSlider.background": "#6E4B41",  // Background of the scrollbar slider
+        "scrollbarSlider.hoverBackground": "#8C6D5B",  // Hover background of the scrollbar slider
+        "scrollbarSlider.activeBackground": "#F5E4D7",  // Active background of the scrollbar slider
+        "panelTitle.activeForeground": "#F5E4D7",  // Soft beige text for active panel titles
+        "panelTitle.inactiveForeground": "#9C7C66",  // Medium warm brown text for inactive panel titles
+        "panelTitle.activeBorder": "#FF8C42",  // Warm orange for the border of active panel titles
+        "statusBarItem.prominentBackground": "#A67C5B",  // Dark brown for prominent status items
+        "statusBarItem.prominentForeground": "#F5E4D7",  // Soft beige for prominent status item text
+        "notifications.background": "#7F5D4F",  // Dark warm brown for notification background
+        "notifications.foreground": "#F5E4D7",  // Soft beige for notification text
+        "editorLink.activeForeground": "#BFAE9B",  // Warm beige for active editor links
+        "editorLink.hoverForeground": "#A67C5B",  // Warm brown for hover effect on editor links
+        "editorUnnecessaryCodeOpacity": "#4E3B2E",  // Opacity for unnecessary code
+        "editorUnnecessaryCode.border": "#9C7C66",  // Border color for unnecessary code
+        "debugToolBar.background": "#4E3B2E",  // Dark brown for debug tool bar
+        "debugToolBar.border": "#9C7C66",  // Border color for debug tool bar
+        "debugToolBarItem.background": "#6E4B41",  // Background color for debug tool bar items
+        "debugToolBarItem.hoverBackground": "#8C6D5B",  // Hover background for debug tool bar items
+        "editorGutter.modifiedBackground": "#7F5D4F",  // Darker brown for modified lines in the gutter
+        "editorGutter.addedBackground": "#8C6D5B",  // Warm brown for added lines in the gutter
+        "editorGutter.deletedBackground": "#BF6C6C",  // Warm dark red for deleted lines in the gutter
+        "activityBarBadge.background": "#BFAE9B",  // Warm beige for activity bar badges
+        "activityBarBadge.foreground": "#4E3B2E",  // Dark brown text on activity bar badges
+        "icon.foreground": "#F5E4D7",  // Soft beige for icon colors
+        "icon.activityBarForeground": "#F5E4D7",  // Soft beige for icons in the activity bar
+        "icon.titleBarForeground": "#F5E4D7",  // Soft beige for icons in the title bar
+        "searchEditor.textInputBackground": "#6E4B41",  // Warm medium brown for search input
+        "searchEditor.textInputForeground": "#F5E4D7",  // Soft beige for search input text
+        "searchEditor.resultsFileHighlightBackground": "#8C6D5B",  // Warm brown for file highlight in search results
+        "searchEditor.resultsFileHighlightBorder": "#9C7C66",  // Slightly darker warm brown border for file highlight
+        "searchEditor.resultsHighlightBackground": "#7F5D4F",  // Darker warm brown for results highlight
+        "searchEditor.resultsHighlightBorder": "#6E4B41",  // Darker warm brown border for results highlight
+        "editorSuggestWidget.background": "#5A3F2D",  // Warm brown for suggestion widget background
+        "editorSuggestWidget.foreground": "#F5E4D7",  // Soft beige for suggestion widget text
+        "editorSuggestWidget.highlightForeground": "#FF8C42",  // Warm orange for highlighted suggestions
+        "editorSuggestWidget.selectedBackground": "#7F5D4F",  // Dark brown for selected suggestion background
+        "editorSuggestWidget.selectedForeground": "#F5E4D7",  // Soft beige for selected suggestion text
+        "editorSuggestWidgetBorder": "#6E4B41",  // Medium warm brown for suggestion widget border
+        "editorSuggestWidgetStatusBar.background": "#7F5D4F",  // Dark warm brown for status bar in suggestion widget
+        "editorSuggestWidgetStatusBar.foreground": "#F5E4D7",  // Soft beige for status bar text in suggestion widget
+        "editorSuggestWidgetStatusBar.border": "#6E4B41",  // Medium warm brown border for status bar in suggestion widget
+        "breadcrumb.background": "#5A3F2D",  // Dark warm brown for breadcrumb background
+        "breadcrumb.foreground": "#F5E4D7",  // Soft beige for breadcrumb text
+        "breadcrumb.focusForeground": "#FF8C42",  // Warm orange for focused breadcrumb
+        "breadcrumb.activeSelectionForeground": "#F5E4D7",  // Soft beige for active selection in breadcrumb
+        "breadcrumb.hoverForeground": "#8C6D5B",  // Warm brown for breadcrumb hover effect
+        "breadcrumb.border": "#7F5D4F"  // Medium warm brown border for breadcrumb
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#9E8B7C"  // Warm light brown for comments
+            }
+        },
+        {
+            "name": "Text",
+            "scope": [
+                "source",
+                "text",
+                "markup"
+            ],
+            "settings": {
+                "foreground": "#F5E4D7"  // Soft beige text for main code
+            }
+        },
+        {
+            "name": "Keywords and Storage",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#BCAAA4"  // Warm light brown for keywords and storage
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#A89F91"  // Warm beige for strings
+            }
+        },
+        {
+            "name": "Numbers and Constants",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "constant.character",
+                "constant.other"
+            ],
+            "settings": {
+                "foreground": "#F5A623"  // Warm orange for numbers and constants
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call",
+                "support.function",
+                "keyword.other.special-method"
+            ],
+            "settings": {
+                "foreground": "#BCAAA4"  // Light brown for functions
+            }
+        },
+        {
+            "name": "Classes and Tags",
+            "scope": [
+                "entity.name.class",
+                "support.type",
+                "support.class",
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#F5E4D7"  // Bright white for classes and tags (e.g., <h1>, <h2>)
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#9E8B7C"  // Warm light brown for variables
+            }
+        },
+        {
+            "name": "Control Flow Keywords",
+            "scope": [
+                "keyword.control"
+            ],
+            "settings": {
+                "foreground": "#F5A623"  // Warm light orange for control flow keywords
+            }
+        },
+        {
+            "name": "Operators",
+            "scope": [
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#9E8B7C"  // Warm light brown for operators
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": [
+                "punctuation",
+                "meta.tag"
+            ],
+            "settings": {
+                "foreground": "#9E8B7C"  // Warm light brown for punctuation
+            }
+        },
+        {
+            "name": "HTML/XML Attributes",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#9CCC65"  // Warm light green for attributes
+            }
+        },
+        {
+            "name": "Invalid and Illegal",
+            "scope": [
+                "invalid",
+                "invalid.illegal"
+            ],
+            "settings": {
+                "foreground": "#F44336",  // Bright red for errors
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Built-in Functions",
+            "scope": [
+                "support.function.builtin"
+            ],
+            "settings": {
+                "foreground": "#BCAAA4"  // Light brown for built-in functions
+            }
+        },
+        {
+            "name": "CSS Class Names",
+            "scope": [
+                "entity.other.attribute-name.class"
+            ],
+            "settings": {
+                "foreground": "#BCAAA4"  // Light brown for CSS class names
+            }
+        },
+        {
+            "name": "CSS IDs",
+            "scope": [
+                "source.sass keyword.control"
+            ],
+            "settings": {
+                "foreground": "#CFD8DC"  // Very light gray for CSS IDs
+            }
+        },
+        {
+            "name": "Decorators",
+            "scope": [
+                "tag.decorator.js entity.name.tag.js",
+                "tag.decorator.js punctuation.definition.tag.js"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#9E8B7C"  // Warm light brown for decorators
+            }
+        },
+        {
+            "name": "Regular Expressions",
+            "scope": [
+                "string.regexp"
+            ],
+            "settings": {
+                "foreground": "#BCAAA4"  // Light brown for regular expressions
+            }
+        },
+        {
+            "name": "Escape Characters",
+            "scope": [
+                "constant.character.escape"
+            ],
+            "settings": {
+                "foreground": "#CFD8DC"  // Light gray for escape characters
+            }
+        },
+        {
+            "name": "URLs and Links",
+            "scope": [
+                "markup.underline.link"
+            ],
+            "settings": {
+                "foreground": "#A89F91",  // Warm beige for links
+                "fontStyle": "underline"
+            }
+        }
+    ]
+}
